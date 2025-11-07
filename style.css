@@ -1,0 +1,73 @@
+body {
+  background-image: url('images/photo.jpg.jpg');
+
+
+  background-color: red;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+nav {
+  background-color: #0078ff;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.9s; /* smooth hover animation */
+}
+
+nav a:hover {
+  color: #ffd700; /* gold color on hover */
+  text-decoration: underline;
+}
+
+/* Mobile view (small screens) */
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+h1 {
+  transition: 0.3s;
+}
+
+h1:hover {
+  color: #00e676;
+  transform: scale(1.9); /* makes it pop slightly */
+}
+button {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
